@@ -16,9 +16,9 @@ jobs:
 
       - name: Auto green
         run: |
-          git config --local user.email "zhu@ajfun.onmicrosoft.com"
-          git config --local user.name "laozhiy"
+          git config --local user.email "3@131418.xyz"
+          git config --local user.name "UshekSalan"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          git commit --allow-empty -m "每天给别人一green"
+          git commit --allow-empty -m "hp一green"
           git push
